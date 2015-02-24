@@ -1,4 +1,5 @@
 Push the iDRAC configuration using racadm by creating a temporal file. This script is also used to change the root password and create a customer account. Script requires racadm.
+http://en.community.dell.com/techcenter/systems-management/w/wiki/3205.racadm-command-line-interface-for-drac
 Usage:
 ```
 usage: configure-idrac.py [-h] [-r RPASSWORD] [-n NPASSWORD] [-p CPASSWORD] -i
